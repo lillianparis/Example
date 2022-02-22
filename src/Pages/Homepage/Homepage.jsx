@@ -7,7 +7,7 @@ const Homepage = () => {
         <>
             <h1>Helllloooo Worlllldddd</h1>
             <div class="parallax-container">
-                <div class="parallax"><img src={Parallax1}/></div>
+                <div class="parallax"><img alt="hi" src={Parallax1}/></div>
             </div>
             <div class="section white">
                 <div class="row container">
@@ -16,7 +16,7 @@ const Homepage = () => {
                 </div>
             </div>
             <div class="parallax-container">
-                <div class="parallax"><img src={Parallax1}/></div>
+                <div class="parallax"><img alt="hello" src={Parallax1}/></div>
             </div>
         </>
     )
