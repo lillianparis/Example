@@ -1,23 +1,30 @@
 import React from 'react';
-import Parallax1 from "../Images/parallax1.jpg"
+import Parallax1 from "../Images/parallax1.jpg";
+import { Card, Container} from 'react-bootstrap';
+import "../Homepage/style.css";
 
 
 const Homepage = () => {
+
+
+
     return (
         <>
+        <Container>
+            <Card className="bg-dark text-white">
+                <Card.Img src={Parallax1} alt="Card image" />
+                <Card.ImgOverlay>
+                    <Card.Title>Welcome</Card.Title>
+                    <Card.Text>
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                    </Card.Text>
+                    {/* <Card.Text>Last updated 3 mins ago</Card.Text> */}
+                </Card.ImgOverlay>
+            </Card>
+            </Container>
             <h1>Helllloooo Worlllldddd</h1>
-            <div class="parallax-container">
-                <div class="parallax"><img alt="hi" src={Parallax1}/></div>
-            </div>
-            <div class="section white">
-                <div class="row container">
-                    <h2 class="header">Parallax</h2>
-                    <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
-                </div>
-            </div>
-            <div class="parallax-container">
-                <div class="parallax"><img alt="hello" src={Parallax1}/></div>
-            </div>
+
         </>
     )
 }
