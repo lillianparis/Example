@@ -11,7 +11,7 @@ Card {
     width: 200px;
 
 }
-.card .card-title {
+.card .card-title, h1 {
     font-family: 'Akaya Telivigala', cursive;
     text-align: center;
     font-size: 40px;

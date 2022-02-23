@@ -23,7 +23,7 @@ const Homepage = () => {
                 </Card.ImgOverlay>
             </Card>
             </Container>
-            <h1>Helllloooo Worlllldddd</h1>
+            <h1>Crafts</h1>
 
         </>
     )
