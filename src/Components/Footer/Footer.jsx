@@ -18,11 +18,10 @@ function Footer() {
                         <div class="col l4 offset-l2 s12">
                             <h5 class="white-text">Lets Connect!</h5>
                             <ul>
-                                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">email</i></a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Email</a></li>
                                 {/* <h1>Email</h1> */}
-                                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">add_shopping_cart</i></a></li>
-                                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">camera_alt
-                                </i></a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Etsy</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
                                 <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
                             </ul>
                         </div>
