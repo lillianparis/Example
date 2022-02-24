@@ -6,8 +6,6 @@ import "../Homepage/style.css";
 
 const Homepage = () => {
 
-
-
     return (
         <>
         <Container>
