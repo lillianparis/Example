@@ -12,7 +12,7 @@ function Footer() {
                 <div class="container">
                     <div class="row">
                         <div class="col l6 s12">
-                            <h5 class="white-text">Tiffany Sutton Crafts</h5>
+                            <h5 class="white-text">Tiff Crafts</h5>
                             <p class="grey-text text-lighten-4">[Here is some more information about me]</p>
                         </div>
                         <div class="col l4 offset-l2 s12">

@@ -18,10 +18,10 @@ export class Navbar extends Component {
 
                 <nav>
                     <div class="nav-wrapper">
-                        <a href="#!" class="brand-logo">Tiffany Sutton Crafts</a>
+                        <a href="#!" class="brand-logo">Tiff Crafts</a>
                         <a href="#Navbar" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
-                            <li><a href="sass.html">About Me</a></li>
+                            <li><a href="sass.html">About</a></li>
                             <li><a href="badges.html">Crafts</a></li>
                             <li><a href="collapsible.html">How to</a></li>
                             <li><a href="mobile.html">Contact</a></li>
