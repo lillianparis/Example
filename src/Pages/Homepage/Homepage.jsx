@@ -1,6 +1,6 @@
 import React from 'react';
-import Parallax1 from "../Images/parallax1.jpg";
-import { Card, Container, Row, Col } from 'react-bootstrap';
+// import Parallax1 from "../Images/parallax1.jpg";
+import { Card, Container, Row, Button } from 'react-bootstrap';
 import "../Homepage/style.css";
 
 
@@ -9,21 +9,24 @@ const Homepage = () => {
     return (
         <>
             <Container>
-                <Card className="bg-dark text-white">
-                    <Card.Img src={Parallax1} alt="Card image" />
-                    <Card.ImgOverlay>
-                        <Card.Title>Welcome</Card.Title>
+                <Row>
+                <Card style={{ width: '45rem' }}>
+                    <Card.Body>
+                        <Card.Title>Hello, My Name is [NAME]</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">[Pick Hobby Title]</Card.Subtitle>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
                         </Card.Text>
-                        {/* <Card.Text>Last updated 3 mins ago</Card.Text> */}
-                    </Card.ImgOverlay>
+                        <Button variant="secondary">Merchandise</Button>{' '}
+                        <Button variant="outline-secondary">Contact</Button>{' '}
+                    </Card.Body>
                 </Card>
+                </Row>
             </Container>
             <h1>Crafts</h1>
 
-            <Container>
+            {/* <Container>
                 <Row xs={6} md={4} className="g-4">
                     {Array.from({ length: 4 }).map((_, idx) => (
                         <Col>
@@ -40,7 +43,7 @@ const Homepage = () => {
                         </Col>
                     ))}
                 </Row>
-            </Container>
+            </Container> */}
 
         </>
     )

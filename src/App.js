@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Homepage from "./Pages/Homepage/Homepage";
 import ParticlesBg from 'particles-bg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
