@@ -12,11 +12,11 @@ function Footer() {
                 <div class="container">
                     <div class="row">
                         <div class="col l6 s12">
-                            <h5 class="white-text">Tiff Crafts</h5>
+                            <h5 class="white-text">Tiffany's Crafts</h5>
                             <p class="grey-text text-lighten-4">[Here is some more information about me]</p>
                         </div>
                         <div class="col l4 offset-l2 s12">
-                            <h5 class="white-text">Lets Connect!</h5>
+                            <h5 class="white-text">Message Me</h5>
                             <ul>
                                 <li><a class="grey-text text-lighten-3" href="#!">Email</a></li>
                                 {/* <h1>Email</h1> */}
@@ -29,7 +29,7 @@ function Footer() {
                 </div>
                 <div class="footer-copyright">
                     <div class="container">
-                        © 2022 Copyright Text
+                        © 2022 Made By Lillian Paris
                     </div>
                 </div>
             </footer>

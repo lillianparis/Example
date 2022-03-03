@@ -9,6 +9,8 @@ import PrintIcon from '@mui/icons-material/Print';
 import ShareIcon from '@mui/icons-material/Share';
 import "../SpeedDial/style.css";
 
+
+
 const actions = [
     { icon: <FileCopyIcon />, name: 'Copy' },
     { icon: <SaveIcon />, name: 'Save' },
@@ -18,6 +20,7 @@ const actions = [
   
   export default function Dial() {
     return (
+    
       <Box sx={{ height: 320, transform: 'translateZ(0px)', flexGrow: 1 }}>
         <SpeedDial
           ariaLabel="SpeedDial basic example"
