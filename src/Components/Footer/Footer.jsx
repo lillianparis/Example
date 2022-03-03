@@ -13,7 +13,7 @@ function Footer() {
                     <div class="row">
                         <div class="col l6 s12">
                             <h5 class="white-text">Tiffany's Crafts</h5>
-                            <p class="grey-text text-lighten-4">[Here is some more information about me]</p>
+                            <p class="grey-text text-lighten-4">Hours of Operation: Mon-Fri, 4:00pm - 6:00 pm</p>
                         </div>
                         <div class="col l4 offset-l2 s12">
                             <h5 class="white-text">Message Me</h5>
@@ -29,7 +29,7 @@ function Footer() {
                 </div>
                 <div class="footer-copyright">
                     <div class="container">
-                        © 2022 Made By Lillian Paris
+                        © 2022 Created By Lillian Paris
                     </div>
                 </div>
             </footer>

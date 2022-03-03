@@ -12,6 +12,7 @@ function Contact() {
         <>
         <div class="hello">
             <Container>
+                <h1>Contact Forum</h1>
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="email">
                         Email Address
