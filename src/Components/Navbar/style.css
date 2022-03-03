@@ -19,3 +19,8 @@ nav ul a {
     font-size: 20px;
     margin-left: 30px;
 }
+
+i.material-icons {
+    text-decoration: none;
+    color: white !important;
+}

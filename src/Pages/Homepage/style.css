@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
 
 img {
   height: 80%;
@@ -7,7 +7,6 @@ img {
 }
 
 .card {
-
   height: 250px;
   margin-left: auto;
   margin-right: auto;
@@ -19,7 +18,9 @@ Card {
 }
 .card .card-title,
 h1 {
-  font-family: "Akaya Telivigala", cursive;
+  font-family: 'Abril Fatface', cursive;
   text-align: center;
   font-size: 40px;
 }
+
+
