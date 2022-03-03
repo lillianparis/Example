@@ -1,11 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
 
 nav .brand-logo {
     margin-left: 50px;
-    font-size: 25px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white !important;
 }
 
 nav {
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
     margin-bottom: 50px;
+    text-decoration: none;
+}
+nav ul a {
+    text-decoration: none;
+    color: white !important;
+    font-size: 20px;
+    margin-left: 30px;
 }

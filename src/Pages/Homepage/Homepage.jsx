@@ -1,6 +1,7 @@
 import React from 'react';
 // import Parallax1 from "../Images/parallax1.jpg";
 import { Card, Container, Row, Button } from 'react-bootstrap';
+import Dial from "../../Components/SpeedDial/SpeedDial"
 import "../Homepage/style.css";
 
 
@@ -44,6 +45,8 @@ const Homepage = () => {
                     ))}
                 </Row>
             </Container> */}
+
+            <Dial />
 
         </>
     )

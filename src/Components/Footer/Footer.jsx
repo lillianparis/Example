@@ -8,7 +8,7 @@ function Footer() {
     return (
 
         <>
-            <footer class="page-footer">
+            <footer class="page-footer #f57c00 orange darken-2">
                 <div class="container">
                     <div class="row">
                         <div class="col l6 s12">
