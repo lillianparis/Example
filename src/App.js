@@ -5,6 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import Homepage from "./Pages/Homepage/Homepage";
 import Contact from "./Pages/Contact/Contact";
 import Shop from "./Pages/Shop/Shop";
+import About from "./Pages/About/About";
 import ParticlesBg from 'particles-bg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/Contact" element={<Contact />} />
           <Route exact path="/Shop" element={<Shop />} />
+          <Route exact path="/About" element={<About />} />
         </Routes>
       </Router>
       <Footer />

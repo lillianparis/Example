@@ -18,7 +18,7 @@ export class Navbar extends Component {
 
                 <nav>
                     <div class="nav-wrapper #f57c00 orange darken-2">
-                        <a href="#!" class="brand-logo">Tiffany's Crafts</a>
+                        <a href="/" class="brand-logo">Tiffany's Crafts</a>
                         <a href="#Navbar" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
                             <li><a href="/About">About</a></li>
