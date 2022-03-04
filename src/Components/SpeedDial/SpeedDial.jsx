@@ -3,32 +3,31 @@ import Box from '@mui/material/Box';
 import SpeedDial from '@mui/material/SpeedDial';
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
-import FileCopyIcon from '@mui/icons-material/FileCopyOutlined';
-import SaveIcon from '@mui/icons-material/Save';
-import PrintIcon from '@mui/icons-material/Print';
-import ShareIcon from '@mui/icons-material/Share';
+import MailIcon from '@mui/icons-material/Mail';
+import LinkIcon from '@mui/icons-material/Link';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import PhoneIcon from '@mui/icons-material/Phone';
 import "../SpeedDial/style.css";
 
-
-
 const actions = [
-    { icon: <FileCopyIcon />, name: 'Copy' },
-    { icon: <SaveIcon />, name: 'Save' },
-    { icon: <PrintIcon />, name: 'Print' },
-    { icon: <ShareIcon />, name: 'Share' },
+    { icon: <MailIcon />, name: 'Email' },
+    { icon: <LinkIcon />, name: 'Link' },
+    { icon: <InstagramIcon />, name: 'Instagram' },
+    { icon: <PhoneIcon />, name: 'Phone' },
   ];
   
   export default function Dial() {
     return (
-    
+
       <Box sx={{ height: 320, transform: 'translateZ(0px)', flexGrow: 1 }}>
         <SpeedDial
-          ariaLabel="SpeedDial basic example"
+          ariaLabel="SpeedDial"
           sx={{ position: 'absolute', bottom: 16, right: 16 }}
           icon={<SpeedDialIcon />}
         >
           {actions.map((action) => (
             <SpeedDialAction
+            sx={{ color: '#ff9800' }}
               key={action.name}
               icon={action.icon}
               tooltipTitle={action.name}

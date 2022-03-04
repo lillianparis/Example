@@ -13,19 +13,18 @@ const Homepage = () => {
                 <Row>
                 <Card style={{ width: '45rem' }}>
                     <Card.Body>
-                        <Card.Title>Hello, My Name is [NAME]</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">[Pick Hobby Title]</Card.Subtitle>
+                        <Card.Title>Personalized Cricket Crafts</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">Request One Today</Card.Subtitle>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Make an empty space in any corner of your mind, and creativity will instantly fill it. -Dee Hock
                         </Card.Text>
-                        <Button variant="secondary">Merchandise</Button>{' '}
-                        <Button variant="outline-secondary">Contact</Button>{' '}
+                        <Button variant="secondary">Request</Button>{' '}
+                        <Button variant="outline-secondary">Shop</Button>{' '}
                     </Card.Body>
                 </Card>
                 </Row>
             </Container>
-            <h1>Shop Some Products</h1>
+
             <ShopCard />
 
 
