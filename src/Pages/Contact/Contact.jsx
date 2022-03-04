@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 
 import { useForm, ValidationError } from '@formspree/react';
 import "../Contact/style.css";
-import Button from '@mui/material/Button';
+
 function Contact() {
     const [state, handleSubmit] = useForm("xgedyzlv");
     if (state.succeeded) {
