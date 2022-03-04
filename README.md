@@ -1,4 +1,6 @@
-# Example
+# Tiffany's Crafts
+
+## ![Beige and Brown Modern Typography Logo](https://user-images.githubusercontent.com/62733242/156652256-7be384a4-b324-41db-b53a-44190bc5bc7d.png)
 
 ### GitHub Walkthrough
 - Make a new Repository on Github
