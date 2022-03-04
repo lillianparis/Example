@@ -40,18 +40,18 @@ function Contact() {
                             field="message"
                             errors={state.errors}
                         />
-                        {/* <button type="submit" disabled={state.submitting}>
-                        Submit
-                    </button> */}
+                        <button class="help" type="submit" disabled={state.submitting}>
+                            Submit
+                        </button>
 
-                        <Button variant="contained" size="medium" type="submit" disabled={state.submitting}>
+                        {/* <Button variant="contained" size="medium" type="submit" disabled={state.submitting}>
                             Send
-                        </Button>
+                        </Button> */}
                     </form>
 
                 </Container>
             </div>
-          
+
         </>
     );
 }
