@@ -1,10 +1,12 @@
 .yup {
     margin-top: 150px;
+    
 }
 
 Card {
     margin-top: 20px;
     display: flex;
+    
 }
 
 div.col {
