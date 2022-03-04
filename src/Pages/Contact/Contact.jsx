@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from "react-bootstrap/Container";
-import Dial from "../../Components/SpeedDial/SpeedDial";
+
 import { useForm, ValidationError } from '@formspree/react';
 import "../Contact/style.css";
 import Button from '@mui/material/Button';
@@ -13,7 +13,7 @@ function Contact() {
         <>
             <div class="hello">
                 <Container>
-                    <h1>Contact Forum</h1>
+                    <h1>Send a Message</h1>
                     <form onSubmit={handleSubmit}>
                         <label htmlFor="email">
                             Email Address
@@ -51,7 +51,7 @@ function Contact() {
 
                 </Container>
             </div>
-            <Dial />
+          
         </>
     );
 }

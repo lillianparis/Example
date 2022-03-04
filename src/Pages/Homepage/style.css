@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
 
+
+
 img {
   height: 80%;
   width: 100%;
   justify-content: center;
+}
+.card-body {
+  margin-top: 50px;
+
 }
 
 .card {
@@ -16,11 +22,13 @@ Card {
   height: 100px;
   width: 200px;
 }
-.card .card-title,
+.card .card-title, .text-muted,
 h1 {
+
   font-family: 'Abril Fatface', cursive;
   text-align: center;
   font-size: 40px;
 }
+
 
 
